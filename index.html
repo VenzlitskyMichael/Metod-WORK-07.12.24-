@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Card Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div id="mobile-menu" class="menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list" id="nav-list">
+                <li><a href="#home">Головне</a></li>
+                <li><a href="#services">Навчання</a></li>
+                <li><a href="#about">Життя</a></li>
+                <li><a href="#hobi">Хобі</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Вензлицький Михайло</h1>
+            <p>Авантюрист цього життя.</p>
+            <img src="./media/media.jpg" alt="Home Image"
+                onerror="this.src='https://via.placeholder.com/800x400?text=Home+Image';">
+        </section>
+
+        <section id="services">
+            <h2>Навчаня</h2>
+            <p>Вчитися це тема, С++ величайший</p>
+            <img src="./media/media(2).png" alt="Services Image"
+                onerror="this.src='https://via.placeholder.com/800x400?text=Services+Image';" width="1125px"
+                height="691px">
+        </section>
+
+        <section id="about">
+            <h2>Життя</h2>
+            <p>У мене багато роботи в житті але від цього воно і цікаве.</p>
+            <img src="./media/media(3).avif" alt="Services Image"
+                onerror="this.src='https://via.placeholder.com/800x400?text=Services+Image';">
+        </section>
+
+        <section id="hobi">
+            <h2>Хобі</h2>
+            <p>У мене є багато різноманітних хобі.</p>
+        </section>
+
+        <div class="gallery">
+            <img src="./media/media(4).png" alt="Image 1"
+                onerror="this.src='https://via.placeholder.com/200x200?text=Image+1';">
+            <img src="./media/media(5).jpg" alt="Image 2"
+                onerror="this.src='https://via.placeholder.com/200x200?text=Image+2';">
+            <img src="./media/media(6).jpg" alt="Image 3"
+                onerror="this.src='https://via.placeholder.com/200x200?text=Image+3';">
+            <img src="./media/media(7).jpg" alt="Image 4"
+                onerror="this.src='https://via.placeholder.com/200x200?text=Image+4';">
+            <img src="./media/media(8).jpg" alt="Image 5"
+                onerror="this.src='https://via.placeholder.com/200x200?text=Image+5';">
+            <img src="./media/media(9).jpg" alt="Image 6"
+                onerror="this.src='https://via.placeholder.com/200x200?text=Image+6';">
+        </div>
+
+        <div class="slider">
+            <div class="slide-container">
+                <img src="./media/media(10).jpg" alt="Slide 1"
+                    onerror="this.src='https://via.placeholder.com/800x400?text=Slide+1';">
+                <img src="./media/media(12).jpg" alt="Slide 2"
+                    onerror="this.src='https://via.placeholder.com/800x400?text=Slide+2';">
+                <img src="./media/media(12).jpg" alt="Slide 3" 
+                    onerror="this.src='https://via.placeholder.com/800x400?text=Slide+3';">
+                <img src="./media/media(13).webp" alt="Slide 4"
+                    onerror="this.src='https://via.placeholder.com/800x400?text=Slide+4';">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
